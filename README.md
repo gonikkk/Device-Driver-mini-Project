@@ -81,20 +81,6 @@ gcc main1.c -o main1
 
 ---
 
-## Project Structure
-
-device-driver-oled-ui/
-├─ drivers/
-│ ├─ ssd1306/
-│ ├─ ds1302/
-│ └─ rotary/
-├─ user_app/
-│ ├─ main1.c
-│ └─ font_header.h
-└─ README.md
-
----
-
 ## Notes
 
 - 커널 드라이버는 Ubuntu 환경에서 빌드 후 Raspberry Pi로 배포하는 구조를 사용합니다.
